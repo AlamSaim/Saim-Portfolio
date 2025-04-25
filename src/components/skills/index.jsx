@@ -25,7 +25,7 @@ const Skills = () => {
                         <li>
                             Languages: HTML5, CSS3, JavaScript (ES6+),
                             TypeScript
-                        </li>{" "}
+                        </li>
                         <br />
                         <li>
                             Frameworks & Libraries: React.js, Redux Toolkit,
