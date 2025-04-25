@@ -5,7 +5,6 @@ import { BsAwardFill } from "react-icons/bs";
 import { BiCodeAlt } from "react-icons/bi";
 import { scrollToSection } from "../../utils/helpers";
 
-import hand from "../../../images/hand.png";
 import girl from "../../../images/girl.png";
 const IntroContent = () => {
     return (
@@ -14,25 +13,25 @@ const IntroContent = () => {
                 <div className="left-col">
                     <h1 className="title">
                         <span className="small-text">
-                            <span className="text">Hello</span>
+                            {/* <span className="text">Hello</span>
                             <span className="icon">
                                 <img
                                     src={hand}
                                     alt="hand"
                                 />
-                            </span>
-                            <span className="text">, I Am</span>
+                            </span> */}
+                            {/* <span className="text">, I Am</span> */}
                         </span>
-                        <span className="big-text"> Saim Alam</span>
+                        <span className="big-text">Hello, I am </span>
+                        <span className="big-text">Saim Alam</span>
                     </h1>
                     <p>
-                        I am a passionate Software Development Engineer
-                        specializing in the MERN stack. I create dynamic,
-                        responsive, and user-friendly web applications. Explore
-                        my projects to see how I leverage modern technologies to
-                        bring ideas to life, and feel free to reach out for
-                        collaboration opportunities. Let's build something
-                        amazing together!
+                        A Self-motivated React Developer with hands-on
+                        experience in building modern, responsive web apps.
+                        Proficient in React.js, ContextAPI, Redux, Tailwind CSS,
+                        Bootstrap, and real-world tools like Recharts, EmailJS,
+                        and React Hook Form. Focused on performance, UI/UX, and
+                        delivering pixel-perfect frontends.
                     </p>
                     <CallToAction
                         text="Contact me"
@@ -49,7 +48,7 @@ const IntroContent = () => {
                         <div className="icon">
                             <BsAwardFill />
                         </div>
-                        <div className="text">Best developer</div>
+                        <div className="text">Full Stack Alchemist</div>
                     </div>
 
                     <div className="highlights vertical">
@@ -57,7 +56,7 @@ const IntroContent = () => {
                             <BiCodeAlt />
                         </div>
                         <div className="text">
-                            <span>efficient Coder</span>
+                            <span>✨React Wizard</span>
                         </div>
                     </div>
                 </div>

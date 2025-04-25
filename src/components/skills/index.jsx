@@ -21,16 +21,54 @@ const Skills = () => {
                 </div>
                 <div className="right-col">
                     <h2>Skills</h2>
-                    <p>
-                        I specialize in the MERN stack, leveraging MongoDB,
-                        Express.js, React, and Node.js to develop full-stack
-                        applications. My expertise includes creating dynamic,
-                        responsive user interfaces with React, managing
-                        server-side logic with Express.js and Node.js, and
-                        ensuring data integrity and scalability with MongoDB.
-                        This combination of front-end and back-end skills allows
-                        me to build seamless and efficient web applications.
-                    </p>
+                    <ul>
+                        <li>
+                            Languages: HTML5, CSS3, JavaScript (ES6+),
+                            TypeScript
+                        </li>{" "}
+                        <br />
+                        <li>
+                            Frameworks & Libraries: React.js, Redux Toolkit,
+                            Tailwind CSS, Bootstrap
+                        </li>
+                        <br />
+                        <li>
+                            Tools & Platforms: Git, GitHub, Vercel, Netlify,
+                            npm, Webpack, Postman
+                        </li>
+                        <br />
+                        <li> Form Handling: React Hook Form, Yup, Formik</li>
+                        <br />
+                        <li>
+                            State Management: Redux, Context API API
+                            Integration: RESTful APIs, Axios, Fetch{" "}
+                        </li>
+                        <br />
+                        <li>
+                            Others: Responsive Design, Figma to Code,
+                            Mobile-First Design, SEO Basics, Chart Libraries
+                            (Recharts)
+                        </li>
+                    </ul>
+                    <br />
+                    {/* <p>
+                        Languages: HTML5, CSS3, JavaScript (ES6+), TypeScript{" "}
+                        <br />
+                        <br />
+                        Frameworks & Libraries: React.js, Redux Toolkit,
+                        Tailwind CSS, Bootstrap <br />
+                        <br />
+                        Tools & Platforms: Git, GitHub, Vercel, Netlify, npm,
+                        Webpack, Postman <br />
+                        <br />
+                        Form Handling: React Hook Form, Yup, Formik <br />
+                        <br />
+                        State Management: Redux, Context API <br /> <br />
+                        API Integration: RESTful APIs, Axios, Fetch <br />
+                        <br /> Others: Responsive Design, Figma to Code,
+                        Mobile-First Design, SEO Basics, Chart Libraries
+                        (Recharts)
+                    </p> */}
                     <CallToAction
                         text="Download CV"
                         icon={<AiOutlineCloudDownload />}

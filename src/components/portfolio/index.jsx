@@ -42,7 +42,7 @@ const projectsData = [
     //     },
     // },
     {
-        href: "https://github.com/AlamSaim/Youtube-clone-Project",
+        href: "https://youtube-clone-project-git-main-kingsaim234gmailcoms-projects.vercel.app/",
         id: 5,
         name: "Videify- Youtube clone app (Frontend Project)",
         tags: ["web-app", "web-page"],
@@ -52,9 +52,9 @@ const projectsData = [
     },
 
     {
-        href: "https://github.com/AlamSaim/nodehotels",
+        href: "https://expense-tracker-projw.vercel.app/",
         id: 7,
-        name: "Node hotels - Hotel management app (Backend Project)",
+        name: "Expense Tracker - Expense Tracking App (Frontend Project)",
         tags: ["web-app"],
         media: {
             thumbnail: require("../../images/portfolio/thumb-3.jpg"),
